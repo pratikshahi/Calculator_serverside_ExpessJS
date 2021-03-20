@@ -7,5 +7,6 @@ app.listen(3000,function(){
     console.log("server started on port 3000");
 });
 app.get("/",function(req,res){
-    res.send("Hello World");
+    //__dirname gives filepath
+    res.sendFile(__dirname+"/index.html");
 });
