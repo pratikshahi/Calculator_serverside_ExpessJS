@@ -1,0 +1,22 @@
+{
+  "name": "calculator_serverside",
+  "version": "1.0.0",
+  "description": "creting basic calculator working on serverside using expresJS",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratikshahi/Calculator_serverside_ExpessJS.git"
+  },
+  "author": "Pratik Shahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratikshahi/Calculator_serverside_ExpessJS/issues"
+  },
+  "homepage": "https://github.com/pratikshahi/Calculator_serverside_ExpessJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
